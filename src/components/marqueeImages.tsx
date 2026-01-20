@@ -1,15 +1,15 @@
 import Marquee from "react-fast-marquee";
 
 const images = [
-  { src: "/IMAGES/img1.png", alt: "Gallery image 1" },
-  { src: "/IMAGES/img2.png", alt: "Gallery image 2" },
-  { src: "/IMAGES/img3.png", alt: "Gallery image 3" },
-  { src: "/IMAGES/img4.png", alt: "Gallery image 4" },
-  { src: "/IMAGES/img5.png", alt: "Gallery image 5" },
-  { src: "/IMAGES/img6.png", alt: "Gallery image 6" },
-  { src: "/IMAGES/img7.png", alt: "Gallery image 7" },
-  { src: "/IMAGES/img8.png", alt: "Gallery image 8" },
-  { src: "/IMAGES/img9.png", alt: "Gallery image 9" },
+  { src: `${import.meta.env.BASE_URL}IMAGES/img1.png`, alt: "Gallery image 1" },
+  { src: `${import.meta.env.BASE_URL}IMAGES/img2.png`, alt: "Gallery image 2" },
+  { src: `${import.meta.env.BASE_URL}IMAGES/img3.png`, alt: "Gallery image 3" },
+  { src: `${import.meta.env.BASE_URL}IMAGES/img4.png`, alt: "Gallery image 4" },
+  { src: `${import.meta.env.BASE_URL}IMAGES/img5.png`, alt: "Gallery image 5" },
+  { src: `${import.meta.env.BASE_URL}IMAGES/img6.png`, alt: "Gallery image 6" },
+  { src: `${import.meta.env.BASE_URL}IMAGES/img7.png`, alt: "Gallery image 7" },
+  { src: `${import.meta.env.BASE_URL}IMAGES/img8.png`, alt: "Gallery image 8" },
+  { src: `${import.meta.env.BASE_URL}IMAGES/img9.png`, alt: "Gallery image 9" },
 ];
 function MarqueeImages() {
   return (
