@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="bg-background border-b border-border transition-colors duration-300">
-      <div className="relative max-w-5xl mx-auto px-6 pt-16 pb-10 sm:pt-20">
+      <div className="relative max-w-5xl mx-auto px-6  pb-10 ">
 
         {/* Logo Centered */}
          <div className="flex justify-center mb-4 sm:mb-6">
@@ -22,10 +22,9 @@ const Header = () => {
     />
   </a>
 </div>
-
         {/* Title */}
         <div className="text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground leading-tight animate-fade-in mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground leading-tight animate-fade-in mb-6 bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 py-3 rounded-lg">
             <span className="text-primary font-extrabold">TITAN</span>: Query-Token based Domain Adaptive Adversarial Learning
           </h1>
         </div>
@@ -44,19 +43,19 @@ const Header = () => {
 
         {/* Authors */}
         <div className="text-center mb-10 space-y-3">
-          <div className="text-lg text-muted-foreground flex flex-wrap justify-center items-center gap-x-2 gap-y-1">
+          <div className="text-lg text-muted-foreground flex flex-wrap justify-center items-center gap-x-12  gap-y-1">
             <a href="https://www.tajamulashraf.com/" className="text-primary hover:underline">Tajamul Ashraf<sup>1</sup></a>
             <a href="https://www.janibbashir.com/" className="text-primary hover:underline">Janibul Bashir<sup>2</sup></a>
           </div>
 
           <div className="text-sm text-muted-foreground leading-relaxed space-y-1">
-            <p><span className="font-semibold">1</span> Department of Computer Vision, MBZUAI, Masdar City, 11058, Abu Dhabi, UAE</p>
-            <p><span className="font-semibold">2</span> Department of Information Technology, NIT Srinagar, Hazratbal, 190007, J&K, India.</p>
+            <p><span className="font-semibold">1.</span> Department of Computer Vision, MBZUAI, Masdar City, 11058, Abu Dhabi, UAE.</p>
+            <p><span className="font-semibold">2.</span> Department of Information Technology, NIT Srinagar, Hazratbal, 190007, J&K, India.</p>
           </div>
         </div>
 
         {/* Buttons */}
-        <div className="flex flex-wrap justify-center gap-4 animate-fade-in">
+        <div className="flex flex-wrap justify-center gap-12 animate-fade-in">
           {links.map((link, index) => (
             <Button
               key={index}

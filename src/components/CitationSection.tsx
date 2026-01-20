@@ -23,15 +23,15 @@ const CitationSection = () => {
   };
 
   return (
-    <section className="bg-background py-16 transition-colors duration-300">
+    <section className=" text-left bg-background py-16 transition-colors duration-300">
       <div className="max-w-4xl mx-auto px-6 sm:px-4 xs:px-2">
         <h2 className="text-3xl font-bold text-center mb-8 text-foreground">
           BibTeX
         </h2>
         
         <div className="relative">
-          <pre className="bg-muted/50 border border-border rounded-lg p-6 text-sm overflow-x-auto">
-            <code className="text-foreground">
+          <pre className="bg-muted/50 border border-border rounded-lg p-6 text-sm overflow-x-auto relative z-10">
+            <code className="align-left text-foreground">
               {bibtex}
             </code>
           </pre>

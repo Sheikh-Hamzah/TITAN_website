@@ -1,10 +1,10 @@
 const AbstractSection = () => {
   return (
-    <section className="bg-muted/30 py-16 transition-colors duration-300">
-      <div className="max-w-4xl mx-auto px-6 sm:px-4 xs:px-2">
-        <h2 className="text-3xl font-bold text-center mb-8 text-foreground animate-fade-in">Abstract</h2>
+    <section className=" py-1 transition-colors duration-300">
+      <div className=" px-6 sm:px-4 xs:px-2">
+        <h2 className="text-3xl font-semibold text-center mb-8 text-foreground animate-fade-in bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 py-3 rounded-lg"><strong>Abstract</strong></h2>
         
-        <div className="prose prose-lg max-w-none text-justify leading-relaxed text-foreground animate-fade-in">
+        <div className="prose prose-lg  text-justify leading-relaxed text-foreground animate-fade-in">
           <p className="mb-4">
             We focus on source-free domain adaptive object detection (SF-DAOD) problem when source data is unavailable during adaptation and the model must adapt to unlabeled target
  domain. Majority of approaches for the problem employ a self-supervised approach using a student-teacher (ST)

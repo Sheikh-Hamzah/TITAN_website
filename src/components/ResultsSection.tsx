@@ -1,13 +1,13 @@
 const ResultsSection = () => {
   return (
-    <section className="bg-background py-16 transition-colors duration-300">
+    <section className="bg-background py-4 transition-colors duration-300">
       <div className="max-w-5xl mx-auto px-6 sm:px-4 xs:px-2">
-        <h2 className="text-3xl font-bold text-center mb-12 text-foreground">
+        <h2 className="text-3xl font-bold text-center mb-2 text-foreground bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 py-3 rounded-lg">
           Quantitative Results on Datasets
         </h2>
         
         {/* Evaluation Metric */}
-        <div className="mb-12">
+        <div className="mb-6">
           <h3 className="text-2xl font-semibold mb-6 text-foreground">Evaluation Metric</h3>
           <div className="prose prose-lg max-w-none text-justify leading-relaxed text-foreground">
             
@@ -19,9 +19,9 @@ const ResultsSection = () => {
         {/* Results Table */}
         <div className="text-center mb-16 space-y-8">
   <img 
-    src="IMAGES/ta1.png" 
+    src="IMAGES/img3.png" 
     alt="Quantitative Results Table 1" 
-    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium" 
+    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium relative z-10" 
   />
   <div className="text-center">
           <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
@@ -30,9 +30,9 @@ const ResultsSection = () => {
           </p>
         </div>
   <img 
-    src="IMAGES/ta2.png" 
+    src="IMAGES/img4.png" 
     alt="Quantitative Results Table 2" 
-    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium" 
+    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium relative z-10" 
   />
   <div className="text-center">
           <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
@@ -41,9 +41,9 @@ const ResultsSection = () => {
           </p>
         </div>
          <img 
-    src="IMAGES/ta3.png" 
+    src="IMAGES/img4.png" 
     alt="Quantitative Results Table 2" 
-    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium" 
+    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium relative z-10" 
   />
   <div className="text-center">
           <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
@@ -53,9 +53,9 @@ const ResultsSection = () => {
           </p>
         </div>
          <img 
-    src="IMAGES/ta4.png" 
+    src="IMAGES/img5.png" 
     alt="Quantitative Results Table 2" 
-    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium" 
+    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium relative z-10" 
   />
   <div className="text-center">
           <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
@@ -71,7 +71,7 @@ acquisitions(D2In)
 
         {/* Qualitative Results */}
         <div>
-          <h3 className="text-2xl font-semibold mb-6 text-foreground">Quantitative Results</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-foreground bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 py-3 rounded-lg">Quantitative Results</h3>
           <div className="mb-8">
             <p className="text-muted-foreground leading-relaxed">
                 The query-token domain feature alignment adaptively aggregates global context in the encoder and decoder. As visualized
@@ -82,9 +82,9 @@ acquisitions(D2In)
           
           <div className="text-center">
             <img 
-              src="IMAGES/t3a.png" 
+              src="IMAGES/img7.png" 
               alt="Qualitative Results Comparison" 
-              className="w-full max-w-5xl mx-auto rounded-lg shadow-medium"
+              className="w-full max-w-5xl mx-auto rounded-lg shadow-medium relative z-10"
             />
             <div className="text-center">
           <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
@@ -94,9 +94,9 @@ acquisitions(D2In)
         </div>
       
            <img 
-              src="IMAGES/t3b.png" 
+              src="IMAGES/img8.png" 
               alt="Qualitative Results Comparison" 
-              className="w-full max-w-5xl mx-auto rounded-lg shadow-medium"
+              className="w-full max-w-5xl mx-auto rounded-lg shadow-medium relative z-10"
             />
             <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
        fig 3. (b) domain query-based feature alignment <strong>on the decoder side
@@ -105,9 +105,9 @@ acquisitions(D2In)
         </div>
           
             <img 
-    src="IMAGES/t4.png" 
+    src="IMAGES/img9.png" 
     alt="Quantitative Results Table 2" 
-    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium" 
+    className="w-full max-w-5xl mx-auto rounded-lg shadow-medium relative z-10" 
   /><div className="text-center">
           <p className="text-muted-foreground leading-relaxed">
                 Fig. 4 presents in-depth visual comparisons between Focal Net-DINO and our framework <strong>TITAN</strong>, alongside the ground-truth annotations. As shown, <strong>TITAN</strong> consistently
