@@ -24,7 +24,7 @@ const Header = () => {
 </div>
         {/* Title */}
         <div className="text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground leading-tight animate-fade-in mb-6 bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 py-3 rounded-lg">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground leading-tight animate-fade-in mb-6 bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 py-3 rounded-lg ">
             <span className="text-primary font-extrabold">TITAN</span>: Query-Token based Domain Adaptive Adversarial Learning
           </h1>
         </div>

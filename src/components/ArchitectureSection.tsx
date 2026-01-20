@@ -5,7 +5,6 @@ const ArchitectureSection = () => {
         <h2 className="text-3xl font-semibold text-center mb-8 text-foreground bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 py-3 rounded-lg">
        <strong>TITAN Architecture</strong>   
         </h2>
-        
         <div className="mb-8">
           <p className="text-justify leading-relaxed text-foreground mb-6">
            <strong>Object Detection.</strong> Object detection is a well studied problem in computer vision [6, 22, 101, 109, 118]. The success of deep learning techniques for the problem has been supported by the abundance of extensively annotated detection
@@ -33,7 +32,6 @@ lenging subsets, leveraging the insight that greater detection variance aligns w
           </p>
          
         </div>
-
         <div className="text-center animate-fade-in">
           <img 
             src="IMAGES/img2.png"

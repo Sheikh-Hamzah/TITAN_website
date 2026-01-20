@@ -17,12 +17,7 @@ pretrained model for further fine-tuning. We observe that the performance of a s
 token based adversarial modules into a student-teacher baseline framework to reduce the domain gaps between two feature representations. Experiments conducted on four natural
  imaging datasets and two challenging medical datasets have substantiated the superior performance of <strong>TITAN</strong> compared to existing state-of-the-art (SOTA) methodologies. We report 
  an mAP improvement of +22.7, +22.2, +21.1 and +3.7 percent over the current SOTA on C2F, C2B, S2C, and K2C benchmarks respectively
-          </p>
-          
-        
-          
-        
-        
+          </p>   
         </div>
       </div>
     </section>
